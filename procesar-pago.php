@@ -13,8 +13,8 @@ if(isset($_REQUEST["back_url"])){
 	$_SESSION["transfer"]["payment_method_id"] = $obj->payment_method_id;
 
 
-	//header('Location: '.$_REQUEST["back_url"]);
-	//die();
+	header('Location: '.$_REQUEST["back_url"]);
+	die();
 }
 
 
