@@ -94,19 +94,17 @@
                                             Pago Pendiente
                                         </h2>
                                     </button>
-
-
                                 </div>
-
                             </div>
                         </div>
-                        <div class="as-accessories-results  as-search-desktop">
+                        <div class="as-accessories-results as-search-desktop">
                             <div class="width:60%">
                                 <div class="as-producttile-info" style="float:left;min-height: 168px;">
                                     Su pago se encuentra en proceso de validación.<br/>
                                 </div>
                             </div>
                         </div>
+                        <a type="button" class="mercadopago-button" href=".">Volver a la tienda!</a>
                     </div>
                 </div>
             </div>

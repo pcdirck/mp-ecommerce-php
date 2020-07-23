@@ -113,7 +113,7 @@
 								</div>
 							</div>
 						</div>
-						<a type="button"  href=".">Volver a la tienda!</a>
+						<a type="button" class="mercadopago-button" href=".">Volver a la tienda!</a>
 					</div>
 				</div>
 			</div>
