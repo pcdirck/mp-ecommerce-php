@@ -28,10 +28,6 @@ if($_REQUEST["id"]){
 	}
 
 	$archivo = fopen('webhooks.log','a');
-	fwrite($archivo,json_encode($_POST,JSON_PRETTY_PRINT));
-	fwrite($archivo,"\n");
-	fwrite($archivo,json_encode($_REQUEST,JSON_PRETTY_PRINT));
-	fwrite($archivo,"\n");
 	fwrite($archivo,$response);
 	fwrite($archivo,"\n");
 	fclose($archivo);
