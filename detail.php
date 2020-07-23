@@ -101,8 +101,6 @@
 	</style>
 </head>
 
-
-
 <body class="as-theme-light-heroimage">
 
     <div class="stack">

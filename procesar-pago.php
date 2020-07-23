@@ -10,12 +10,14 @@ if(isset($_REQUEST["back_url"])){
 	$_SESSION["transfer"]["transaction_amount"] = $obj->transaction_amount;
 	$_SESSION["transfer"]["payment_id"] = $id;
 
-	header('Location: '.$_REQUEST["back_url"]);
-	die();
+	//header('Location: '.$_REQUEST["back_url"]);
+	//die();
 }
 
 echo "<pre>";
-var_dump($_POST);
+//var_dump($_POST);
+echo json_encode(json_decode($json), JSON_PRETTY_PRINT);
 echo "</pre>";
+
 
 ?>
