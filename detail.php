@@ -59,9 +59,8 @@
 	$preference->save();
 
 	echo "<pre>";
-	var_dump($preference);
+		var_dump($preference);
 	echo "</pre>";
-
 
 ?>
 <!DOCTYPE html>
