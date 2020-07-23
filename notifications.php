@@ -23,15 +23,12 @@ require __DIR__ .  '/vendor/autoload.php';
 
 	}
 
-	$archivo = fopen("webhooks_".date("Ymd__his").".json","w+");
+	$archivo = fopen("webhooks.log","a");
 	fwrite($archivo,json_encode($_POST,JSON_PRETTY_PRINT));
 	fwrite($archivo,"\n");
 	fwrite($archivo,json_encode($data,JSON_PRETTY_PRINT));
 	fwrite($archivo,"\n");
-	$entityBody = file_get_contents('php://input');
-	fwrite($archivo,$entityBody);
-	fwrite($archivo,"\n");
 	fclose($archivo);
-	http_response_code(200);
+	//http_response_code(200);
 
 ?>
