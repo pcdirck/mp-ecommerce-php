@@ -167,7 +167,7 @@
 											<div class="clearfix image-list xs-no-js as-util-relatedlink relatedlink" data-relatedlink="6|Powerbeats3 Wireless Earphones - Neighborhood Collection - Brick Red|MPXP2">
 												<div class="as-tilegallery-element as-image-selected">
 													<div class=""></div>
-													<img src="<?php echo $_POST['img'];?>" class="ir ir item-image as-producttile-image" alt="" max-width="445" height="445" >
+													<img src="<?php echo $_POST['img'];?>" class="ir ir item-image as-producttile-image" alt="" style="max-width: 445px;">
 												</div>
 											</div>
 										</div>
