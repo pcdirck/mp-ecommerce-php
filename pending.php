@@ -103,7 +103,7 @@
                         <div class="as-accessories-results  as-search-desktop">
                             <div class="width:60%">
                                 <div class="as-producttile-info" style="float:left;min-height: 168px;">
-                                    Su pago esta en proceso de validación, una vez realice el pago en tienda, se autorizará el pago.
+                                    Su pago se encuentra en proceso de validación.<br/>
                                 </div>
                             </div>
                         </div>
