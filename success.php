@@ -113,6 +113,7 @@
 								</div>
 							</div>
 						</div>
+						<a type="button"  href=".">Volver a la tienda!</a>
 					</div>
 				</div>
 			</div>
