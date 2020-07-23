@@ -18,9 +18,10 @@ if(isset($_REQUEST["back_url"])){
 }
 
 
+/*
 echo "<pre>";
 echo json_encode(json_decode($json), JSON_PRETTY_PRINT);
 echo "</pre>";
-
+*/
 
 ?>

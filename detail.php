@@ -177,7 +177,7 @@
 								<div class="as-producttile-info" style="float:left;min-height: 168px;">
 									<div class="as-producttile-titlepricewraper" style="min-height: 128px;">
 										<h3>$<?php echo number_format($_POST['price'],2,",", ".");?></h3>
-										<h3>Cantidad: <?php echo $_POST['unit'];?></h3>
+										<h3>Disponibles: <?php echo $_POST['unit'];?></h3>
 									</div>
 									<form action="procesar-pago.php" method="POST">
 										<script src="https://www.mercadopago.com.ar/integrations/v1/web-payment-checkout.js" data-preference-id="<?php echo $preference->id; ?>" data-button-label="Pagar la compra" data-elements-color="#8e44ad">
