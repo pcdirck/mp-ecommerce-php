@@ -2,7 +2,7 @@
 
 header('Content-Type: application/json');
 echo json_encode(['HTTP/1.1 200 OK'], 200);
-file_put_contents('webhooks.log',json_encode($_POST));
+file_put_contents('webhooks.log', $_POST);
 
 /*
 require __DIR__ .  '/vendor/autoload.php';
