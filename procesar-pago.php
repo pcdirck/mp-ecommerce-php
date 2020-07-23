@@ -16,6 +16,6 @@ if(isset($_REQUEST["back_url"])){
 
 echo "<pre>";
 var_dump($_POST);
-echo "</pre>"
+echo "</pre>";
 
 ?>
