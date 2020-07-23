@@ -6,6 +6,12 @@ require __DIR__ .'/vendor/autoload.php';
 MercadoPago\SDK::setAccessToken('APP_USR-6317427424180639-042414-47e969706991d3a442922b0702a0da44-469485398');
 
 http_response_code(202);
+
+if($_REQUEST["id"]){
+	http_response_code(201);
+}else{
+	http_response_code(203);
+}
 return;
 
 /*  
