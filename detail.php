@@ -57,10 +57,12 @@
 	$preference->payer = $payer;
 
 	$preference->save();
-
+/*
 	echo "<pre>";
 	var_dump($preference);
 	echo "</pre>";
+*/
+
 ?>
 <!DOCTYPE html>
 <html class="supports-animation supports-columns svg no-touch no-ie no-oldie no-ios supports-backdrop-filter as-mouseuser" lang="en-US">
