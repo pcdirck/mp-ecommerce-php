@@ -146,7 +146,7 @@
 
 									<button class="as-filter-button" aria-expanded="true" aria-controls="as-search-filters" type="button">
 										<h2 class=" as-filter-button-text">
-											Smartphones
+											<?php echo $_POST['title'];?>
 										</h2>
 									</button>
 
@@ -176,11 +176,6 @@
 								</div>
 								<div class="as-producttile-info" style="float:left;min-height: 168px;">
 									<div class="as-producttile-titlepricewraper" style="min-height: 128px;">
-										<div class="as-producttile-title">
-											<h3 class="as-producttile-name">
-												<p class="as-producttile-tilelink"><span data-ase-truncate="2"><?php echo $_POST['title'];?></span></p>
-											</h3>
-										</div>
 										<h3>$<?php echo number_format($_POST['price'],2,",", ".");?></h3>
 										<h3>Cantidad: <?php echo $_POST['unit'];?></h3>
 									</div>
