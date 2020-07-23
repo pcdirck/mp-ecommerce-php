@@ -58,11 +58,11 @@
 
 	$preference->save();
 
-	/*
+
 	echo "<pre>";
 		var_dump($preference);
 	echo "</pre>";
-	*/
+
 
 ?>
 <!DOCTYPE html>
