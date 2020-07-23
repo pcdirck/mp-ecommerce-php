@@ -23,12 +23,8 @@ require __DIR__ .  '/vendor/autoload.php';
 
 	}
 
-	$archivo = fopen("webhooks.log","a");
-	fwrite($archivo,json_encode($_POST,JSON_PRETTY_PRINT));
-	fwrite($archivo,"\n");
-	fwrite($archivo,json_encode($data,JSON_PRETTY_PRINT));
-	fwrite($archivo,"\n");
-	fclose($archivo);
-	//http_response_code(200);
+	header('Content-Type: application/json');
+	echo json_encode(['HTTP/1.1 200 OK'], 200);
+	file_put_contents('webhooks.log',json_encode($_POST));
 
 ?>
