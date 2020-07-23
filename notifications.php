@@ -7,10 +7,10 @@ MercadoPago\SDK::setAccessToken('APP_USR-6317427424180639-042414-47e969706991d3a
 
 http_response_code(202);
 
-if($_REQUEST["id"]){
+if(isset($_POST["type"]){
 	http_response_code(201);
 }else{
-	http_response_code(203);
+	http_response_code(204);
 }
 return;
 
