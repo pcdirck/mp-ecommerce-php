@@ -35,7 +35,7 @@
         "failure" => "https://pcdirck-mp-ecommerce-php.herokuapp.com/failure.php",
         "pending" => "https://pcdirck-mp-ecommerce-php.herokuapp.com/pending.php"
     );
-    $preference->auto_return = "all";
+    $preference->auto_return = "approved";
 
     $payer = new MercadoPago\Payer();
     $payer->name = "Lalo";

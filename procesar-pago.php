@@ -7,17 +7,20 @@ if(isset($_REQUEST["back_url"])){
 	if( isset($_SESSION["transfer"])){
 		unset($_SESSION["transfer"]);
 	}
-	$_SESSION["transfer"]["transaction_amount"] = $obj->transaction_amount;
 	$_SESSION["transfer"]["payment_id"] = $id;
+	$_SESSION["transfer"]["transaction_amount"] = $obj->transaction_amount;
+	$_SESSION["transfer"]["external_reference"] = $obj->external_reference;
+	$_SESSION["transfer"]["payment_method_id"] = $obj->payment_method_id;
 
-	//header('Location: '.$_REQUEST["back_url"]);
-	//die();
+
+	header('Location: '.$_REQUEST["back_url"]);
+	die();
 }
 
+/*
 echo "<pre>";
-//var_dump($_POST);
 echo json_encode(json_decode($json), JSON_PRETTY_PRINT);
 echo "</pre>";
-
+*/
 
 ?>
