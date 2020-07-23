@@ -93,7 +93,7 @@
 								<div class="as-accessories-filter-tile column large-6 small-3">
 									<button class="as-filter-button" aria-expanded="true" aria-controls="as-search-filters" type="button">
 										<h2 class=" as-filter-button-text">
-											Pago exito!
+											Pago exitoso!
 										</h2>
 									</button>
 								</div>
