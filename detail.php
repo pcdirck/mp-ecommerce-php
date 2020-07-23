@@ -16,7 +16,7 @@
 	$item->title = $_POST['title'];
 	$item->description = "Dispositivo móvil de Tienda e-commerce";
 	$item->picture_url = "https://pcdirck-mp-ecommerce-php.herokuapp.com".$_POST['img'];
-	$item->quantity = 1;
+	$item->quantity = $_POST['unit'];
 	$item->unit_price = $_POST['price'];
 
 	$preference->items = array($item);
