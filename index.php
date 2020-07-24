@@ -342,7 +342,7 @@
                                                     </div>
                                                     <div class="as-tilegallery-element">
                                                         <div class=""></div>
-                                                        <img src="assets/u_10168742.jpg" class="ir ir item-image as-producttile-image" alt="" width="445" height="445">
+                                                        <img src="/assets/Screen Shot 2017-11-01 at 13.01.54.png" class="ir ir item-image as-producttile-image" alt="" width="445" height="445">
                                                     </div>
                                                 </div>
                                             </div>
