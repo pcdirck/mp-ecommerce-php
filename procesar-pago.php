@@ -17,7 +17,6 @@ if(isset($_REQUEST["back_url"])){
 	die();
 }
 
-
 /*
 echo "<pre>";
 echo json_encode(json_decode($json), JSON_PRETTY_PRINT);

@@ -14,5 +14,6 @@ http_response_code(200);
 // Luego filtrar con un switch segun sea caso
 // recomiendo usar el source_news=webhooks en la notifications_url
 //
-// Dirck
+// PCDirck
+
 ?>
