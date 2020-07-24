@@ -107,13 +107,14 @@
 						</div>
 						<div class="as-accessories-results as-search-desktop">
 							<div class="width:60%">
-								<div class="as-producttile-info" style="float:left;min-height: 168px;">
+								<div class="as-producttile-info" style="float:left; min-height: 168px;">
 									<ul>
-										<li>Método de pago: <strong><?= $_SESSION["transfer"]["payment_method_id"]; ?></strong></li>
 										<li>Importe: <strong>$<?php echo number_format($_SESSION["transfer"]["transaction_amount"],2,",", "."); ?></strong></li>
+										<li>ID de Método de pago: <strong><?= $_SESSION["transfer"]["payment_method_id"]; ?></strong></li>
 										<li>Nº de orden: <strong><?= $_GET["merchant_order_id"]; ?></strong></li>
 										<li>ID de pago: <strong><?= $_SESSION["transfer"]["payment_id"]; ?></strong></li>
 										<li>Referencia Externa: <strong><?= $_SESSION["transfer"]["external_reference"]; ?></strong></li>
+
 									</ul>
 								</div>
 							</div>
