@@ -370,8 +370,8 @@
                                                 </span>
                                             </div>
                                         </div>
-                                        <form action="/detail.php" method="get">
-                                            <input type="hidden" name="img" value="assets/u_10168742.jpg">
+                                        <form action="detail.php" method="get">
+                                            <input type="hidden" name="img" value="/assets/Screen Shot 2017-11-01 at 13.01.54.png">
                                             <input type="hidden" name="title" value="iPhone 8">
                                             <input type="hidden" name="price" value="16000">
                                             <input type="hidden" name="unit" value="1">
