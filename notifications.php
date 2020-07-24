@@ -13,7 +13,21 @@ $find_info = MercadoPago\Payment::find_by_id($or_collection_id);
 $or_number = $find_info->external_reference;
 */
 
-$payment = MercadoPago\Payment.find_by_id($_GET["id"]);
+
+switch($_GET["type"]){
+	case "payment":
+		$payment = MercadoPago\Payment.find_by_id($_GET["id"]);
+	break;
+	case "plan":
+		$plan = MercadoPago\Plan.find_by_id($_POST["id"]);
+	break;
+	case "subscription":
+		$plan = MercadoPago\Subscription.find_by_id($_POST["id"]);
+	break;
+    case "invoice":
+        $plan = MercadoPago\Invoice.find_by_id($_POST["id"]);
+    break;
+}
 
 var_dump($payment);
 
