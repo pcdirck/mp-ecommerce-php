@@ -37,7 +37,7 @@
 		"pending" => "https://pcdirck-mp-ecommerce-php.herokuapp.com/pending.php"
 	);
 
-	$preference->notification_url = "https://quemepongo.net.ar/notifications.php";
+	$preference->notification_url = "https://quemepongo.net.ar/notifications.php?source_news=webhooks";
 	//$preference->notification_url = "https://pcdirck-mp-ecommerce-php.herokuapp.com/notifications.php";
 
 	$preference->auto_return = "approved";
