@@ -1,5 +1,5 @@
 <?php
-	session_start();
+	//session_start();
 ?>
 <!DOCTYPE html>
 <html class="supports-animation supports-columns svg no-touch no-ie no-oldie no-ios supports-backdrop-filter as-mouseuser" lang="en-US">
@@ -109,12 +109,18 @@
 							<div class="width:60%">
 								<div class="as-producttile-info" style="float:left;min-height: 168px;">
 									<ul>
+										<li>Nº de orden: <strong><?php echo $_GET['merchant_order_id'];?></strong></li>
+										<li>ID de pago: <strong><?php echo $_GET['collection_id'];?></strong></li>
+										<li>Referencia Externa: <strong><?php echo $_GET['external_reference'];?></strong></li>
+										<li>Preference id: <strong><?php echo $_GET['preference_id'];?></strong></li>
+										<!--
 										<li>Importe: <strong>$<?php echo number_format($_SESSION["transfer"]["transaction_amount"],2,",", "."); ?></strong></li>
 										<li>ID de Método de pago: <strong><?= $_SESSION["transfer"]["payment_method_id"]; ?></strong></li>
 										<li>Nº de orden: <strong><?= $_GET["merchant_order_id"]; ?></strong></li>
 										<li>ID de pago: <strong><?= $_SESSION["transfer"]["payment_id"]; ?></strong></li>
 										<li>Referencia Externa: <strong><?= $_SESSION["transfer"]["external_reference"]; ?></strong></li>
 										<li>Preference_id: <strong><?= $_GET["preference_id"]; ?></strong></li>
+										-->
 									</ul>
 								</div>
 							</div>
